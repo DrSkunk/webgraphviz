@@ -1,7 +1,7 @@
 $(document).ready(function() {
   console.log('ready!');
   const code = decodeURIComponent(window.location.hash.substring(1));
-  var viz = new Viz();
+  const viz = new Viz();
 
   viz
     .renderSVGElement(code)
