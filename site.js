@@ -15,3 +15,4 @@ $(document).ready(function() {
       // Possibly display the error
       console.error(error);
     });
+});
